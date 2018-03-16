@@ -1,6 +1,6 @@
 # PSQLServer
 
-To create a contianer with the web server in use:
+To create a contianer with the psql server in use:
 
       docker run --name=PSQLServer --net=host -dt anniesoft/psqlserver bash -c "su postgres -c 'postgres -D /PSQLServer'"
 
